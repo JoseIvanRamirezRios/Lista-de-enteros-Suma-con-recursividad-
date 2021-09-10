@@ -1,0 +1,8 @@
+def cuentaregresiva(numero):
+    numero -= 1
+    if numero > 0:
+       print(numero)
+       cuentaregresiva(numero)
+    else:
+       print("Booom!!!")
+cuentaregresiva(10)
