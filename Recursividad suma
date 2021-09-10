@@ -1,0 +1,7 @@
+lista = [5,10,15,20,25]
+def sumar(lista):
+   if lista==[]:
+     return 0
+   else:      
+       return lista[0] + sumar(lista[1:])
+print(sumar(lista))  
